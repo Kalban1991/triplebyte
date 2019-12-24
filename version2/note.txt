@@ -1,0 +1,1 @@
+This App.js and App.css file contains a little diferent approach to same project.

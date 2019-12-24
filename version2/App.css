@@ -1,0 +1,66 @@
+:root {
+  --bColor: lightgray;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+#wrapper {
+  margin-top: 35px;
+}
+
+#cart, #cart1, #cart2, #cart3 {
+  display: inline-block;
+  margin-left: 25px;
+  width: calc((100% - 25px) / 4 - 25px);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 6px; 
+  background-color: var(--bColor);
+  vertical-align: top;
+
+}
+#cart3 {
+  margin-right: 25px;
+}
+
+h5 {
+  margin: 6px 0 2px 0;
+  text-align: center;
+  border-radius: 4px;
+  padding: 12px 0 12px 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 6px;
+}
+ ul li {
+   border-radius: 4px;
+   background-color: #fff;
+   padding: 10px 0 10px 10px;
+   margin: 6px 0;
+   overflow-x: auto;
+ }
+
+ p {
+   border-radius: 4px;
+   padding-left: 10px;
+   color: #707B7C;
+   margin-bottom: 6px;
+   cursor: pointer;
+ }
+
+#left, #right {
+  margin: 0 8px;
+  cursor: pointer;
+}
+#left {
+  float: left;
+}
+ #right {
+   float: right;
+ }
